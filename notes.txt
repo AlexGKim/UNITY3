@@ -1,0 +1,6 @@
+# miniconda installation
+# initialization changes .bash_profile whereas it should be .zshrc
+./conda init
+
+conda create -n jsalt
+conda install --file requirements.txt
